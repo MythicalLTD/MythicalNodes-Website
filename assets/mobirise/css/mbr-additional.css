@@ -1,6 +1,11 @@
 body {
     font-family: Jost;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
   }
+body::-webkit-scrollbar {
+  display: none !important;
+}
   .display-1 {
     font-family: 'Jost', sans-serif;
     font-size: 4.6rem;
